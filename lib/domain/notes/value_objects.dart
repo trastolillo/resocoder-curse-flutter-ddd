@@ -34,12 +34,12 @@ class TodoName extends ValueObject<String> {
 
   factory TodoName(String input) {
     assert(input != null);
-    // Es igual que:
-    // .flatMap(
-    // (valueFromPreviusF) => validateStringNotEmpty(valueFromPreviusF))
     return TodoName._(validateMaxStringLength(input, maxLength)
         .flatMap(validateStringNotEmpty)
         .flatMap(validateSingleLine));
+    // Es igual que:
+    // .flatMap(
+    // (valueFromPreviusF) => validateStringNotEmpty(valueFromPreviusF))
   }
 
   TodoName._(this.value);
