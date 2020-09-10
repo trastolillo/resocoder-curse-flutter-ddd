@@ -1,5 +1,7 @@
 import 'package:resocoder_ddd_tutorial/domain/core/failures.dart';
 
+class NotAuthenticatedError extends Error {}
+
 class UnexpectedValueError extends Error {
   final ValueFailure _valueFailure;
 
