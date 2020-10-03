@@ -1,5 +1,7 @@
 # resocoder_ddd_tutorial
 
+[Tutorial del canal Resocode sobrel Flutter disponible en Youtube](https://www.youtube.com/playlist?list=PLB6lc7nQ1n4iS5p-IezFFgqP6YvAJy84U)
+
 A new Flutter project.
 
 ## Getting Started
